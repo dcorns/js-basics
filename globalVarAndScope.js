@@ -4,10 +4,11 @@
  * Copyright © 2015 Dale Corns
  * Global Variables and scope
  */
-'use strict';
+
 /**
- * Global = Bad
- */
+ * using 'use strict' prohibits creating a variable without the var key word so no accidental globals.
+  */
+//'use strict';
 var bucket;
 
 /**
@@ -36,6 +37,18 @@ console.log('23: ' + addToBucket(bucket1));
 /**
  * @returns bucket
  */
+
+
+console.log('14: ' + addToBucket(bucket));
+
+bucket = 0;
+
+console.log('18: ' + addToBucket(bucket));
+
+var bucket1 = 0;
+
+console.log('22: ' + addToBucket(bucket1));
+
 //function addToBucket2(bucket){
 //  bucket++;
 //  return bucket;
@@ -83,13 +96,19 @@ function addToBucket4(){
   bucket3++;
 }
 /**
- * 1
+ * Or does it, JS crashes
  */
-console.log(bucket3);
+//console.log('58: ' + bucket3);
 /**
- * Will output undefined since using a global variable name as a parameter is the same as declaring it over inside a function using var
- * @param bucket3
+ * right, we have to run the function first
  */
-function addToBucket5(bucket3){
-  console.log(bucket3);
+addToBucket4();
+/**
+ * now bucket3 is global
+ */
+console.log('66: ' + bucket3);
+
+function logBucket3(bucket3){
+  console.log('72: ' + bucket3);
 }
+logBucket3();
