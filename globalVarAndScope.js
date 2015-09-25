@@ -46,3 +46,22 @@ console.log('23: ' + addToBucket(bucket1));
 //addToBucket3();
 //console.log('47: ' + bucket1);
 //console.log('48: ' + bucket);
+
+/**
+ * This function inadvertently creates a global variable by not using the 'var' keyword
+ */
+function addToBucket4(){
+  bucket3 = 0;
+  bucket3++;
+}
+/**
+ * 1
+ */
+console.log(bucket3);
+/**
+ * Will output undefined since using a global variable name as a parameter is the same as declaring it over inside a function using var
+ * @param bucket3
+ */
+function addToBucket5(bucket3){
+  console.log(bucket3);
+}
