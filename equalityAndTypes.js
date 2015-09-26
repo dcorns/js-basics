@@ -2,6 +2,7 @@
  * equalityAndTernary
  * Created by dcorns on 9/25/15
  * Copyright © 2015 Dale Corns
+ * Demonstrates equality, types and type conversion
  */
 'use strict';
 function start(){
