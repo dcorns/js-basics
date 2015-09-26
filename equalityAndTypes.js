@@ -6,6 +6,9 @@
  */
 'use strict';
 function start(){
+  /**
+   *Multiplication, division and subtraction convert strings to numbers. Addition will concat them.
+   */
   var n = '9', nn = 3;
   console.log(n * nn);
   console.log(n / nn);
