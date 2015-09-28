@@ -5,6 +5,8 @@
  */
 'use strict';
 
+//Questions from Reading
+
 //Console.log Console.dir
 
 //var case insensitive start with underscore or letter

@@ -27,14 +27,14 @@ var bucket1 = 0;
 
 console.log('28: ' + addToBucket(bucket1));
 
-function addToBucket2(bucket){
-  bucket++;
-  return bucket;
-}
-console.log('34: ' + addToBucket2(bucket1));
-console.log('35: ' + addToBucket2(bucket));
-console.log('36: ' + bucket1);
-console.log('37: ' + bucket);
+//function addToBucket2(bucket){
+//  bucket++;
+//  return bucket;
+//}
+//console.log('34: ' + addToBucket2(bucket1));
+//console.log('35: ' + addToBucket2(bucket));
+//console.log('36: ' + bucket1);
+//console.log('37: ' + bucket);
 //function addToBucket2(bucket){
 //  bucket++;
 //}

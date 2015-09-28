@@ -11,28 +11,28 @@ function start(){
   console.log(n / nn);
   console.log(n - nn);
   console.log(n + nn);
-  nn = '3';
-  console.log(n * nn);
-  console.log(n / nn);
-  console.log(n - nn);
-  console.log(n + nn);
-  (9 == n) ? console.log('9 == n') : console.log('9 != n');
-  (9 === n) ? console.log('9 == n') : console.log('9 != n');
-  ('A' > 'a') ? console.log('A > a') : console.log('A < a');
-  ('A' > 'Z') ? console.log('A > Z') : console.log('A < Z');
-  ('A' > '26') ? console.log('A > 26') : console.log('A < 26');
-  ('a' > 'z') ? console.log('a > z') : console.log('a < z');
-  ('9' > '3') ? console.log('\'9\' > \'3\'') : console.log('\'9\' < \'3\'');
-  ('9' > 3) ? console.log('\'9\' > \'3\'') : console.log('\'9\' < \'3\'');
-  (9 > '3') ? console.log('\'9\' > \'3\'') : console.log('\'9\' < \'3\'');
-  (NaN) ? console.log('NaN is true') : console.log('NaN is false');
-  (undefined) ? console.log('undefined is true') : console.log('undefined is false');
-  (null) ? console.log('null is true') : console.log('null is false');
-  (0) ? console.log('0 is true') : console.log('0 is false');
-  (-1) ? console.log('-1 is true') : console.log('-1 is false');
-  (1) ? console.log('1 is true') : console.log('1 is false');
-  (-25) ? console.log('-25 is true') : console.log('-25 is false');
-  (25) ? console.log('25 is true') : console.log('25 is false');
+  //nn = '3';
+  //console.log(n * nn);
+  //console.log(n / nn);
+  //console.log(n - nn);
+  //console.log(n + nn);
+  //(9 == n) ? console.log('9 == n') : console.log('9 != n');
+  //(9 === n) ? console.log('9 == n') : console.log('9 != n');
+  //('A' > 'a') ? console.log('A > a') : console.log('A < a');
+  //('A' > 'Z') ? console.log('A > Z') : console.log('A < Z');
+  //('A' > '26') ? console.log('A > 26') : console.log('A < 26');
+  //('a' > 'z') ? console.log('a > z') : console.log('a < z');
+  //('9' > '3') ? console.log('\'9\' > \'3\'') : console.log('\'9\' < \'3\'');
+  //('9' > 3) ? console.log('\'9\' > \'3\'') : console.log('\'9\' < \'3\'');
+  //(9 > '3') ? console.log('\'9\' > \'3\'') : console.log('\'9\' < \'3\'');
+  //(NaN) ? console.log('NaN is true') : console.log('NaN is false');
+  //(undefined) ? console.log('undefined is true') : console.log('undefined is false');
+  //(null) ? console.log('null is true') : console.log('null is false');
+  //(0) ? console.log('0 is true') : console.log('0 is false');
+  //(-1) ? console.log('-1 is true') : console.log('-1 is false');
+  //(1) ? console.log('1 is true') : console.log('1 is false');
+  //(-25) ? console.log('-25 is true') : console.log('-25 is false');
+  //(25) ? console.log('25 is true') : console.log('25 is false');
 }
 start();
 /**
@@ -55,4 +55,4 @@ function andTheTypes(){
   console.log(typeof stringBean);
 }
 
-andTheTypes();
+//andTheTypes();
