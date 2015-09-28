@@ -1,5 +1,5 @@
 /**
- * equalityAndTernary
+ * equalityAndTypes.js
  * Created by dcorns on 9/25/15
  * Copyright © 2015 Dale Corns
  * Demonstrates equality, types and type conversion

@@ -1,5 +1,5 @@
 /**
- * case1
+ * globalVarAndScope.js
  * Created by dcorns on 9/24/15
  * Copyright © 2015 Dale Corns
  * Global Variables and scope
