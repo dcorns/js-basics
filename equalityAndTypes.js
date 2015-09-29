@@ -7,10 +7,10 @@
 'use strict';
 function start(){
   var n = '9', nn = 3;
-  console.log(n * nn);
-  console.log(n / nn);
-  console.log(n - nn);
-  console.log(n + nn);
+  //console.log(n * nn);
+  //console.log(n / nn);
+  //console.log(n - nn);
+  //console.log(n + nn);
   //nn = '3';
   //console.log(n * nn);
   //console.log(n / nn);
@@ -33,6 +33,7 @@ function start(){
   //(1) ? console.log('1 is true') : console.log('1 is false');
   //(-25) ? console.log('-25 is true') : console.log('-25 is false');
   //(25) ? console.log('25 is true') : console.log('25 is false');
+  //('') ? console.log('\'\' is true') : console.log('\'\' is false');
 }
 start();
 /**
@@ -55,4 +56,4 @@ function andTheTypes(){
   console.log(typeof stringBean);
 }
 
-//andTheTypes();
+andTheTypes();

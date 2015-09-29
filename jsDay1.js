@@ -11,7 +11,6 @@
 /**
  * Console.log Console.dir (different in browser console)
  */
-//console.log({name: 'Dale', age: 39}); console.dir({name: 'Dale', age: 39});
 /**
  * 'var' case insensitive start with underscore or letter
  */
@@ -41,6 +40,7 @@
 //console.log(7 && x && 34 && 'hello');
 //console.log(7 && x && 34 && 'hello' && 0 && true);
 //console.log(7 && x && 34 && 'hello' && undefined && true);
+//console.log(undefined || false);
 /**
  * String operator +
  */
@@ -58,9 +58,9 @@
 /**
  * delete(returns bool), typeof
  */
-//var obj = {name: 'Paul', age: 23}; console.log(delete obj.age); console.log(delete obj.age); console.log(obj.age);
-//var ary = [3, 6, 9, 12]; console.log(ary.indexOf(9), ary.length); delete ary[2]; console.log(ary.indexOf(9), ary.length);
-//console.log(typeof Number); console.log(typeof 7); console.log(typeof Object); console.log(typeof {}); console.log(typeof 'eating plants is murder');
+var obj = {name: 'Paul', age: 23}; console.log(delete obj.age); console.log(delete obj.age); console.log(obj.age);
+var ary = [3, 6, 9, 12]; console.log(ary.indexOf(9), ary.length); delete ary[2]; console.log(ary.indexOf(9), ary.length);
+console.log(typeof Number); console.log(typeof 7); console.log(typeof Object); console.log(typeof {}); console.log(typeof 'eating plants is murder');
 /**
  * relational operators: in (property in object), instanceof (obj instanceof object type)
  */
@@ -73,6 +73,7 @@
  * Loops while, do, for, for in, break, continue
  */
 /**
+ var
  * functions: closures dependencies, tying functions into the DOM, first class, pure, best practices
  */
 //function f(n){
